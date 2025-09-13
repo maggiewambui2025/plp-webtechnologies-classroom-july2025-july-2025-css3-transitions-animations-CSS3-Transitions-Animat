@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peggy Baby Shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎀 Peggy Baby Shop</h1>
+    <p>Delightful toys and baby items for every little star 🌟</p>
+  </header>
+
+  <main>
+    <!-- Button to trigger promo animation -->
+    <button id="promoBtn">🎉 Show Special Offer</button>
+
+    <!-- Animated product card (triggered via JS) -->
+    <div class="product-card" id="promoCard">
+      <h2>🧸 Special Toy Bundle</h2>
+      <p>Today only: Get 20% off on our top-selling baby toys!</p>
+    </div>
+
+    <!-- Button and flip card -->
+    <button onclick="flipCard()">🔄 Flip Surprise Toy</button>
+    <div class="flip-container" id="flipCard">
+      <div class="flipper">
+        <div class="front">🍼 Baby Rattle</div>
+        <div class="back">🎁 Surprise Toy!</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>📧 <a href="mailto:magwamboo@gmail.com">magwamboo@gmail.com</a> | 📞 0714610757</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
